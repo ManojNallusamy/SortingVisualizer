@@ -33,7 +33,7 @@ def refill():
     screen.fill((255,255,255))
     draw()
     pygame.display.update()
-    pygame.time.delay(20)
+    pygame.time.delay(10)
 #Sorting Algo:Merge sort
 def mergesort(array,l,r):
     mid=(l+r)//2
@@ -95,8 +95,8 @@ def draw():
     boundry_arr=900/150
     boundry_grp=550/100
     pygame.draw.line(screen,(0,0,0),(0,95),(900,95),6)
-    for i in range(1,100):
-        pygame.draw.line(screen,(224,224,224),(0,boundry_grp*i+100),(900,boundry_grp*i+100),1)
+    #for i in range(1,100):
+    #    pygame.draw.line(screen,(224,224,224),(0,boundry_grp*i+100),(900,boundry_grp*i+100),1)
     
     #Drawing the array values as lines
     for  i in range(1,151):
