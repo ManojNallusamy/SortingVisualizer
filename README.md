@@ -1,9 +1,7 @@
 # SortingVisualizer
 Using Python(pygame)
 
-Merge sort visualization is done here.
-
-To know about Merge sort:https://www.geeksforgeeks.org/merge-sort/
+Merge sort, Quick sort, Insertion sort and Heap sort visualization is done here.
 
 The visualization is done using pygame in Python.
 
